@@ -1,0 +1,25 @@
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: $color-black;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &-logo {
+    font-size: 2rem;
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &-list {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 1.6rem;
+  }
+
+  &-item {
+    list-style: none;
+  }
+}

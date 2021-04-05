@@ -1,1 +1,52 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.nav {
+  height: 10vh;
+  width: 100%;
+  background-color: #323232;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-logo {
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-list {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+/* media query for tablet */
+/* media query for high pixel density desktops */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+/*# sourceMappingURL=main.css.map */
